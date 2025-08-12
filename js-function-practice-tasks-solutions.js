@@ -40,3 +40,12 @@ function count_zero(str) {
 }
 
 console.log(count_zero("101010101"));
+
+// Task 5 Solution
+
+function odd_even(num) {
+   return num % 2 === 0 ? "Even" : "Odd";
+}
+
+console.log(odd_even(10))
+console.log(odd_even(11))
