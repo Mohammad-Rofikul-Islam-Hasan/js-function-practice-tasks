@@ -14,3 +14,15 @@ function oddEven(num) {
 
 console.log(oddEven(5));
 console.log(oddEven(6));
+
+// Task 3 Solution
+
+function make_avg(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum / arr.length;
+}
+
+console.log(make_avg([2, 4, 6, 8, 10]));
